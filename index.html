@@ -275,28 +275,23 @@
     <!-- Footer start-->
     <div class="container-fluid footer">
         <div class="container">
-            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top text-white">
-                <div class="col mb-3  distribute "> <a href="/"
-                        class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none text-white "
-                        aria-label="Bootstrap">
-                        <img src="./images/Logo (1).png" </img>
-                    </a>
+            <footer class="row row-cols-1 row-cols-sm-1 row-cols-md-5 py-5 my-5 border-top text-white">
+                <div class="col mb-3  distribute ">
+                    <img src="./images/Logo (1).png" </img>
                     <p class="text-white">Copyright © 2020 Landify UI Kit.</p>
                     <p class="text-white">All rights reserved</p>
-                    <ul class="list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram">
-                            <img src="./images/Social Icons.png"
-                        </a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook">
-                            <img src="./images/facebook.png"
-                        </a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="twitter">
-                            <img src="./images/twitter.png"
-                        </a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="youtube">
-                            <img src="./images/youtube.png"
-                        </a></li>
-                    </ul>
+
+                    <img class="nav  list-unstyled d-flex gap-5 ">
+                         
+                            <img
+                                    src="./images/Social Icons.png" alt=""></img>
+                     <img
+                                        src="./images/twitter.png" alt=""></img>
+                       <img
+                                            src="./images/facebook.png" alt=""> </img>
+                    <img
+                                                src="./images/youtube.png" alt=""> </img>
+            
                 </div>
                 <div class="col mb-3 text-white">
                     <h5>Section</h5>
@@ -318,14 +313,16 @@
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
                     </ul>
                 </div>
-                <div class="col-md-5  mb-3 ">
+                <div class="col ">
                     <form>
                         <h5>Stay up to date</h5>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2 footer-grey"> <label for="newsletter1"
-                                class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
-                                class="form-control footer-grey border-0" placeholder="Email address"> 
-                                <i class="fa-light fa-paper-plane" style= " color: rgb(255, 255, 255);"></i>
-                            </div>
+                        <div class="input-group subscribe-box mt-3">
+                            <input type="email" class="form-control" placeholder="Email address">
+                            <button class="btn">
+                                <i class="bi bi-send"></i>
+                            </button>
+
+                        </div>
                     </form>
                 </div>
             </footer>
