@@ -11,3 +11,33 @@
     color: white;
 
 }
+.subscribe-box{
+    background: rgba(255,255,255,a);
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.subscribe-box.form-control{
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 12px;
+
+}
+.subscribe-box.subscribe-box.form-control::placeholder{
+    color: #d3d3d3;
+}
+.subscribe-box.form-control:focus{
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+.subscribe-box.btn{
+    color: #fff;
+    background: transparent;
+    border: none;
+    padding: 0 18px;
+}
+.subscribe-box.btn:hover{
+    color: #4CAF4F;
+}
